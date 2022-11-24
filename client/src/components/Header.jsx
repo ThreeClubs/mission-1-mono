@@ -65,7 +65,7 @@ function Header() {
       <LoginModal onClose={handleModalOnClose} visible={showModal} />
 
       <div className="bg-blue-600">
-        <div className="my-4 flex flex-col max-w-4xl m-auto py-3 px-4">
+        <div className="mt-0 mb-4 flex flex-col max-w-4xl m-auto py-3 px-4">
           <div className="mt-4 flex flex-col justify-center items-center sm:flex-row">
             <input
               className="mt-2 px-4 py-2 sm:w-1/2 w-11/12 focus:outline-none"
