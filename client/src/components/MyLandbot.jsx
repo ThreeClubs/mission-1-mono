@@ -14,11 +14,11 @@ export default function MyLandbot({ url }) {
 
   return (
     <div className="flex flex-col h-screen mt-10">
-      <h2 className="pb-1 font-bold text-xl text-blue-700 border-b border-blue-200">
+      <h2 className="pb-1 m-auto text-center font-bold text-xl text-blue-700 border-b border-blue-200">
         Have a chat to Terry and get bidding in minutes
       </h2>
       <div
-        className="h-3/4 w-full border border-solid border-blue-900 border-opacity-20 rounded-md overflow-hidden m-5"
+        className="h-full w-full border border-solid border-blue-900 border-opacity-20 rounded-md overflow-hidden m-5"
         ref={containerRef}
       />
     </div>

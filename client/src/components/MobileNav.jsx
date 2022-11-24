@@ -22,7 +22,7 @@ function MobileNav({ visible, onClose }) {
           </li>
           <li
             onClick={handleNavToLogin}
-            className="px-4 py-2 text-blue-100 bg-amber-600 flex justify-center items-center border-2 m-1 border-blue-200 font-bold active:bg-amber-400 active:border-amber-300"
+            className="px-4 py-2 text-blue-100 bg-pink-600 flex justify-center items-center border-2 m-1 border-blue-200 font-bold active:bg-blue-300 active:border-amber-300"
           >
             Login
           </li>
