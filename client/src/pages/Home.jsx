@@ -5,11 +5,10 @@ import Footer from "../components/Footer";
 import SignUp from "../components/SignUp";
 
 export default function Home() {
-
   return (
     <div
       id="container"
-      className="bg-gray-200 font-sans flex flex-col items-center"
+      className="bg-gray-100 font-sans flex flex-col items-center"
     >
       <Header />
       <HeroSection />
